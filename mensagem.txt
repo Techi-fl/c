@@ -8,10 +8,11 @@ void main() {
 }
 
 
+
 Especificador    	Tipo de dado	    Exemplo de uso	                   Saída
-%d ou %i	           (int)          printf("Idade: %d", 20);	         Idade: 20
-%f            	    (float)	        printf("Nota: %.2f", 7.5);	       Nota: 7.50
-%c	                (char)         	printf("Letra: %c", 'A');	         Letra: A
+%d ou %i	           (int)            printf("Idade: %d", 20);	       Idade: 20
+%f            	      (float)	        printf("Nota: %.2f", 7.5);	       Nota: 7.50
+%c	                  (char)         	printf("Letra: %c", 'A');	       Letra: A
 
 
 
@@ -71,5 +72,49 @@ int main(void) {
 
 
 
+\\ if.. else
+#include <stdio.h>
+
+int main(void) {
+    int idade = 18;
+
+    if (idade >= 18) {
+        printf("Você é maior de idade.\n");
+    }
+}
 
 
+#include <stdio.h>
+
+int main(void) {
+    int nota;
+
+    printf("Digite sua nota (0 a 10): ");
+    scanf("%d", &nota);
+
+    if (nota >= 9) {
+        printf("Excelente!\n");
+    } else if (nota >= 7) {
+        printf("Boa nota.\n");
+    } else if (nota >= 5) {
+        printf("Na média.\n");
+    } else {
+        printf("Reprovado.\n");
+    }
+}
+
+
+
+Operador	     Significado
+==	               igual
+!=	               diferente
+>	               maior
+<	               menor
+>=	               maior ou igual
+<=	               menor ou igual
+
+
+
+
+
+BY: Fabricio Lôbo 
