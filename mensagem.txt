@@ -12,3 +12,64 @@ Especificador    	Tipo de dado	    Exemplo de uso	                   Saída
 %d ou %i	           (int)          printf("Idade: %d", 20);	         Idade: 20
 %f            	    (float)	        printf("Nota: %.2f", 7.5);	       Nota: 7.50
 %c	                (char)         	printf("Letra: %c", 'A');	         Letra: A
+
+
+
+#include <stdio.h>
+
+int main(void) {
+    int idade;
+    
+    printf("Digite sua idade: ");                        // Mostra a mensagem no terminal
+    scanf("%d", &idade);                                // Lê o valor digitado e salva na variável
+
+    printf("Você tem %d anos.\n", idade);              // Exibe o valor da variável
+}
+
+
+
+
+//while
+
+#include <stdio.h>
+
+int main(void) {
+    int i = 1;
+
+    while (i <= 5) {
+        printf("Contando: %d\n", i);
+        i++;  // incrementa
+    }
+}
+
+
+
+
+//do... while
+
+#include <stdio.h>
+
+int main(void) {
+    int i = 1;
+
+    do {
+        printf("Número: %d\n", i);
+        i++;
+    } while (i <= 3);
+}
+
+
+
+//for 
+#include <stdio.h>
+
+int main(void) {
+    for (int i = 1; i <= 5; i++) {
+        printf("Valor: %d\n", i);
+    }
+}
+
+
+
+
+
