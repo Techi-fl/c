@@ -1,3 +1,4 @@
 @echo off
-echo Olá, mundo
+type mensagem.txt
+echo.
 pause
