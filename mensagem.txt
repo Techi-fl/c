@@ -1,1 +1,14 @@
-AI
+
+//estrutura base
+
+#include <stdio.h>
+
+void main() {
+
+}
+
+
+Especificador    	Tipo de dado	    Exemplo de uso	                   Saída
+%d ou %i	           (int)          printf("Idade: %d", 20);	         Idade: 20
+%f            	    (float)	        printf("Nota: %.2f", 7.5);	       Nota: 7.50
+%c	                (char)         	printf("Letra: %c", 'A');	         Letra: A
